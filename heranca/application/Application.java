@@ -13,16 +13,10 @@ public class Application {
 		// UPCASTING
 		
 		Conta acc1 = accP;
-		acc1.getSaldo();
-		
-		ContaPremium acc2 = new ContaPremium(1004, "João", 0.0, 10.5);
-		acc2.emprestimo(500.00);
-		
-		ContaPoupanca acc3 = new ContaPoupanca(1003, "Pedro", 10.0, 999.9);
-		acc3.atualizarSaldo();
-		
+		Conta acc2 = new ContaPremium(1004, "João", 0.0, 10.5);
+		Conta acc3 = new ContaPoupanca(1003, "Pedro", 10.0, 999.9);
 		Conta acc4 = new ContaPoupanca(1005, "Erick", 500.00, 5.00);
-		
+
 		// DOWNCASTING
 		
 		ContaPremium acc5 = (ContaPremium)acc1;

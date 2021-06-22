@@ -9,7 +9,6 @@ public class Conta {
 	}
 
 	public Conta(Integer numero, String titular, Double saldo) {
-		super();
 		this.numero = numero;
 		this.titular = titular;
 		this.saldo = saldo;
